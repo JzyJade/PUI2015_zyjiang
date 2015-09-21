@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Citi Bike</title>
+
+    <meta name="title" content="Citi Bike">
+    <meta name="description" content="The Citi Bike system, operated by NYC Bike Share features thousands of bikes at hundreds of stations around New York. Citi Bikes are available 24/7, 365 days a year.">
+
+    <!-- Included CSS Files (Compressed) -->
+    <link href="/assets/css/foundation3/foundation.min.css?c=1436911200" media="all" rel="stylesheet"/>
+	<link href="/assets/css/foundation3/app.css?c=1436911200" media="all" rel="stylesheet"/>
+	<link href="/assets/css/fancybox/jquery.fancybox.css?c=1436911200" media="all" rel="stylesheet"/>
+	<link href="/assets/css/fancybox/jquery.fancybox-buttons.css?c=1436911200" media="all" rel="stylesheet"/>
+	<link href="/assets/css/fancybox/jquery.fancybox-thumbs.css?c=1436911200" media="all" rel="stylesheet"/>
+	
+    <!-- Bikeshare CSS Files -->
+    <link href="/assets/css/nyc/fonts.css?c=1436911200" media="all" rel="stylesheet"/>
+	<link href="/assets/css/nyc/nyc.css?c=1436911200" media="all" rel="stylesheet"/>
+	
+    <!-- Font Awesome Icon set -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Modernizr -->
+    <script src="/assets/js/foundation3/modernizr.foundation.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	
+    <!-- Print -->
+    <link rel="stylesheet" href="/assets/css/nyc/print.css" type="text/css" media="print" />
+
+
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+        <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--[if gte IE 9]>
+        <style type="text/css"> .gradient { filter: none; } </style>
+    <![endif]-->
+
+    <!--[if IE]>
+         <style type="text/css">
+             .timer { display: none !important; }
+             div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
+        </style>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+    <!-- Fuel Blog -->
+    
+    <!-- This style block and the following script block prevent Cross Frame Scripting -->
+    <style>
+        html{
+        display : none ;
+        visibility : hidden ;
+        }
+    </style>
+    <script>
+        if ( self == top ) {
+            document.documentElement.style.display = 'block' ;
+            document.documentElement.style.visibility = 'visible' ;
+        } else {
+            top.location=self.location;
+        }
+    </script>
+
+</head>
+
+<body class="">
+
+	<!-- Special Announcement above header to turn on and off -->
+	
+<!-- Header -->
+<header id="header" class="gradient">
+	<div id="header-bg-right" class="gradient-header-blue gradient"></div>
+    	
+	<div class="row">
+	  <div class="twelve columns">
+	    <nav class="top-bar">
+	      <ul>
+	        <!-- Title Area -->
+	        <li class="name">
+	          <h1>
+	            <!-- Logo -->
+	            <a id="logo" href="https://www.citibikenyc.com/">
+	                <img src="/assets/images/header-logo.png" alt="Citi Bike - Operated by NYC Bike Share" />
+	            </a>
+	          </h1>
+	        </li>
+	        <li class="toggle-topbar"><a href="#"></a></li>
+	      </ul>
+	
+	                            <!-- Social Media -->
+	                            <nav id="social" class="hide-for-custom">
+	                                <ul>
+	                                    <li>
+	                                        <a class="button" href="http://facebook.com/CitiBikeNYC" target="_blank" title="Follow Us On Facebook!"><i class="icon-facebook icon-large"></i></a>
+	                                    </li>
+	                                    <li>
+	                                        <a class="button" href="http://twitter.com/#!/CitiBikeNYC" target="_blank" title="Follow Us On Twitter!"><i class="icon-twitter icon-large"></i></a>
+	                                    </li>
+	                                    <li>
+	                                        <a class="button" href="https://instagram.com/citibike/" target="_blank" title="Follow Us On Instagram!"><i class="icon-instagram icon-large"></i></a>
+	                                    </li>	
+	                                    <li>
+	                                        <a class="button" href="https://www.citibikenyc.com/faq" title="Help/FAQ">Help</a>
+	                                    </li>                                    
+	                                </ul>
+	                            </nav>
+	                            
+	      <section>
+	        <!-- Left Nav Section -->
+			
+<ul class="right">
+	<li class="first"><a href="https://www.citibikenyc.com/25off">Sign Up</a></li>
+	<li><a href="https://www.citibikenyc.com/login">Member Login</a></li>
+	<li><a href="https://www.citibikenyc.com/stations">Station Map</a></li>
+	<li class="has-dropdown"><a href="https://www.citibikenyc.com/pricing">Membership Options</a>
+	<ul>
+		<li class="first"><a href="https://www.citibikenyc.com/pricing#annual">Annual</a></li>
+		<li><a href="https://www.citibikenyc.com/pricing#casual">Short-term</a></li>
+		<li><a href="https://www.citibikenyc.com/business-signup">Group Membership</a>
+		<ul>
+			<li class="first last"><a href="https://www.citibikenyc.com/business-signup/enrollment">Enrollment Form</a></li>
+		</ul>
+		</li>
+		<li class="last"><a href="https://www.citibikenyc.com/pricing/discounted">Discounted Membership</a></li>
+	</ul>
+	</li>
+	<li class="has-dropdown"><a href="https://www.citibikenyc.com/how-it-works">How It Works</a>
+	<ul>
+		<li class="first"><a href="https://www.citibikenyc.com/how-it-works">Overview</a></li>
+		<li><a href="https://www.citibikenyc.com/faq">FAQ</a></li>
+		<li><a href="https://www.citibikenyc.com/meet-the-bike">Meet the Bike</a></li>
+		<li><a href="https://www.citibikenyc.com/get-the-app">Get The App</a></li>
+		<li><a href="https://www.citibikenyc.com/riding-tips">Riding Tips</a></li>
+		<li class="last"><a href="https://www.citibikenyc.com/resources">Resources</a></li>
+	</ul>
+	</li>
+	<li class="last"><a href="http://citibikeblog.tumblr.com/" target="_new">Blog</a></li>
+</ul>
+			
+            <ul class="show-for-custom">
+                <li>
+                    <a class="button" href="http://facebook.com/CitiBikeNYC" target="_blank" title="Follow Us On Twitter!"><i class="icon-facebook icon-large"></i></a>
+                </li>
+                <li>
+                    <a class="button" href="http://twitter.com/#!/CitiBikeNYC" target="_blank" title="Follow Us On Twitter!"><i class="icon-twitter icon-large"></i></a>
+                </li>
+                <li>
+                    <a class="button" href="https://instagram.com/citibike/" target="_blank" title="Follow Us On Twitter!"><i class="icon-instagram icon-large"></i></a>
+                </li>
+                <li>
+                    <a class="button" href="https://www.citibikenyc.com/faq" title="Help/FAQ">Help</a>
+                </li> 	                                    
+            </ul>
+	
+	      </section>
+	    </nav>
+	  </div>
+	</div>
+
+</header>	
+
+<section id="content" class="row margin-top-50">
+    <div class="eleven mobile-three columns centered">
+
+        <!-- Main Content -->
+        <article id="404" class="seven columns">
+            <header>
+                <h1>404 Page Not Found</h1>
+            </header>
+
+            <section>
+                <p><p>The page you requested was not found.</p></p>
+            </section>
+
+        </section>
+
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer id="footer" class="row">
+
+        <hr id="divider" />
+
+        <section id="copyright" class="twelve columns">
+            <p>Use of this Website constitutes acceptance of the <a href="https://www.citibikenyc.com/terms-of-use">Website Terms of Use Agreement</a> and <a href="https://www.citibikenyc.com/privacy">Privacy Policy</a>.
+<p>
+    © Copyright 2013 - 2015 Motivate International, Inc. All rights reserved.<br />
+	Citi, Citi with Arc Design and Citi Bike are registered trademarks of Citigroup, Inc
+</p>        </section>
+
+    </footer>
+
+    <!-- Miscellanous content like modal dialogs -->
+    
+    <!-- Current Environment: production -->
+
+    <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write("<script src='/assets/js/foundation3/jquery.js'>\x3C/script>")</script>
+
+	<script type="text/javascript">
+	/* Adding the dropdown class to top bar sub ul in the navigation 
+	 	Hack because Fuel 0.9.3 does not have a subcontainger_tag_class parameter */
+		$('.top-bar ul > li > ul').addClass('dropdown');
+	</script>
+	
+    <!-- Foundation Javascript -->
+    <script src="/assets/js/foundation3/foundation.min.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/foundation3/app.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	
+    <!-- jQuery Plugins that only load where appropriate -->
+            <script src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false" type="text/javascript"></script>
+    
+    <!-- Auto-Load any Javascript specific to a page by its URL only if it exists -->
+    
+    <!-- Load the signup JS if we're on the renewal page -->
+    
+    
+    <!-- Final custom JS Calls (keep this below all other javascript files) -->
+    <script src="/assets/js/css_browser_selector.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/jquery.cookie.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/jquery.scrollTo.min.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/jquery.localScroll.min.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/fancybox/jquery.fancybox.pack.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/fancybox/helpers/jquery.fancybox-buttons.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/fancybox/helpers/jquery.fancybox-media.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/fancybox/helpers/jquery.fancybox-thumbs.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	
+    <!-- Analytics -->
+    <script src="/assets/js/google-analytics.js?c=1436911200" type="text/javascript" charset="utf-8"></script>
+	
+</body>
+</html>
