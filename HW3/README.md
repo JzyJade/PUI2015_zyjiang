@@ -11,3 +11,4 @@ md['chisq'][n] = np.random.chisquare(df, size=n)
 md['normal'][n] = np.random.normal(100, 200, size=n)
 md['uniform'][n] = np.random.uniform(df, size=n)
 md['exponential'][n] = np.random.exponential(df, size=n)
+#Assignment2
