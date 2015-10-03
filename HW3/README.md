@@ -13,3 +13,4 @@ md['uniform'][n] = np.random.uniform(df, size=n)
 md['exponential'][n] = np.random.exponential(df, size=n)
 #Assignment2
 #Assignment 2
+#Assignment2
