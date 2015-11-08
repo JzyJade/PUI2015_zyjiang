@@ -34,4 +34,3 @@ ORDER BY trip_count DESC
 
 
 
-SANITY CHECK QUESTION: The ID # 285 (Broadway& E 14st ) had the most trip count the the Washington Square Park on the weekends. The total number is 149. }
