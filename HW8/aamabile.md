@@ -1,3 +1,18 @@
+#REVIEW
+##CLARITY
+This plot is easy to read.  It gives a rapid and clear view of  how much precentage for the limited to "outgoing" trips, which end in a different neighborhood than where they started.
+
+##ESTHETIC
+The colors are appropriately chosen, as a wide shared is often associated with a higher value. Different colors show the different areas.
+
+##HONESTY
+The plot seems honest.
+
+##IMPROVEMENTS
+
+I don't think this graph need any improvements because it is good. 
+
+
 #PUI 2015 - Arno Amabile
 ##Homework 8 - Data Visualization
 
