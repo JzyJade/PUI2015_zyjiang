@@ -1,0 +1,42 @@
+your review were fine, but not very deep or critical. plots all can be improved (perhaps except the visualization of the Franch march to Russia we discussed in class!)
+9/10
+
+NOTES ON YOUR PLOT
+===================
+
+amabile
+=======
+
+the plot summarizes nicely the complex data space!
+
+the roll over triggers some instability in the display
+
+the color choices are not robust to color blindness and chelsea and brookly heights are hard to distinguish even for regular vision viewers
+
+
+evans
+=======
+
+associating rage to color is always at risk of triggering preconceptions
+
+labels too small
+
+consider using more compact notation for large numbers, for example plot income in units of $1,000  and say that in the label
+
+size of points unexplained
+
+the three default dots in the legend should be changed to 1 as they are redundant
+
+there is a lot of empty space in the plot. begin by removing empty space <0 on both axes, which is not meaningful anyways (no negative income)
+
+yiningfan
+=========
+
+units missing in labels
+
+tick labels too small
+
+lines unexplained
+
+color indistinguishable for the 10% of the male population that is color blind
+
